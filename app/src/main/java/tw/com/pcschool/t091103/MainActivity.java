@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     public void click1(View v)
     {
         FragmentTransaction ft = getFragmentManager().beginTransaction();
+
         ft.replace(R.id.my_frag_layout, new FragmentA());
         ft.commit();
 
